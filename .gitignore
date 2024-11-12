@@ -1,0 +1,29 @@
+# Logs and temporary files
+_log/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+
+# Bundler specific
+.bundle/
+vendor/bundle
+
+# Ruby and Gem specific
+*.gem
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+
+# Node (if using npm or yarn for front-end)
+node_modules/
+package-lock.json
+yarn.lock

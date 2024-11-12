@@ -1,0 +1,64 @@
+/* Ensure all images are responsive and maintain aspect ratio */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Style for band images */
+  .band-figure {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .band-figure img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px; /* Optional: adds rounded corners */
+  }
+  
+  /* Style for album art images */
+  .album-art {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .album-art img {
+    max-width: 300px; /* Control size of album art */
+    height: auto;
+    border-radius: 8px; /* Optional: adds rounded corners */
+  }
+  
+  /* Flexbox layout for the show posters */
+  .posters-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .posters-container figure {
+    flex: 1 1 300px; /* Ensures figures are flexible and take up space evenly */
+    max-width: 300px; /* Control max width of posters */
+    margin: 0;
+    text-align: center;
+  }
+  
+  .posters-container img {
+    width: 100%; /* Makes sure images fill the figure space */
+    height: auto;
+    border-radius: 8px; /* Optional: adds rounded corners */
+  }
+  
+  /* Optional: style the album links */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
